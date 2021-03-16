@@ -1,1 +1,41 @@
 /* HTML Form */
+
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #ECEEF1;
+}
+.form-area {
+    padding: 30px;
+}
+
+legend {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+.sections-wrapper {
+    background-color: #FFFFFF; 
+    width: 318px;
+    height: 579px;
+    margin: 0 auto;
+}
+
+#create-account-btn {
+    width: 294px;
+    height: 32px;
+    background-color: #0879C8;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 12px;
+}
