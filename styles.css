@@ -8,34 +8,197 @@
 body {
     background-color: #ECEEF1;
 }
-.form-area {
-    padding: 30px;
+
+#sub-header-prompt {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: -25px;
+    padding: 20px 0px 0px 0px;
 }
 
 legend {
     font-size: 24px;
+    width: 318px;
+    height: 26.4px;
+    padding: 0px;
 }
 
 ul {
     list-style-type: none;
-    display: inline;
+    /* display: inline; */
     float: right;
     padding: 0;
     margin: 0;
 }
 
+ul li {
+    display: inline;
+}
+
 .sections-wrapper {
-    background-color: #FFFFFF; 
-    width: 318px;
-    height: 579px;
+    background-color: #FFFFFF;
+    height: 641px;
+    width: 380px;
     margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #c7c7c7;
 }
 
 #create-account-btn {
-    width: 294px;
-    height: 32px;
+    width: 318px;
+    height: 44px;
     background-color: #0879C8;
     border-radius: 5px;
     color: white;
+    margin: 10px 0px;
     padding: 6px 12px;
+    font-size: 15.75px;
+    line-height: 22.5px;
 }
+
+.footer-area {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    line-height: 1.4;
+}
+
+.footer-area ul {
+    font-size: 12px;
+    text-decoration: none;
+    color: #505050;
+}
+
+.footer-area ul li {
+    padding: 0px 5px ;
+}
+
+.footer-area ul li:hover {
+    text-decoration-line: underline;
+}
+
+.copyright-info {
+    font-size: 12px;
+    color: #505050;
+}
+
+button {
+    height: 34px;
+    width: 110px;
+    background-color: #0879C8;
+    color: white;
+    font-size: 13.5px;
+}
+
+.terms-agreement-msg {
+    margin-bottom: -40px;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 18px;
+    text-align: center;
+    color: #757575;
+}
+
+.sign-in-box {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.sign-in-box-left-column {
+    height: auto;
+    width: auto;
+    font-size: 12px;
+    text-align: right;
+    line-height: 1.5;
+    color: #505050;
+}
+
+.sign-in-box-left-column p {
+    margin: 0px 5px 0px 0px;
+}
+
+.sign-in-box-right-column {
+    height: auto;
+    width: auto;
+}
+
+.call-charges {
+    font-size: 10px;
+    padding: 5px 0;
+    min-height: 20px;
+}
+
+.input-your-data {
+    width: 305px;
+    height: 33px;
+    margin-top: 8px;
+    padding-left: 8px;
+    padding-right: 6px;
+    border: 1px solid #C1C5C8;
+    font-size: 1.2em;
+    border-radius: 3px;
+    line-height: 1.3em;
+}
+
+legend {
+    text-align: center;
+}
+
+.terms-of-use {
+    background-color: #ECEEF1;
+    font-size: 10px;
+    margin: 68px -30px -30px -30px;
+    padding: 26px 16px 25px 16px;
+    text-align: center;
+    border-bottom: 0.5px solid #c7c7c7;
+    border-left: 0.5px solid #f0eeee;
+    border-right: 0.5px solid #e7e7e7;
+}
+
+a {
+    text-decoration: none;
+    color: #0077C5;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+label {
+    font-size: 14px;
+    color: #404040;
+    line-height: 25px;
+}
+
+.logos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logos a {
+    color: #8D9096;
+}
+
+.logos ul {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+#brand-logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+
+
